@@ -31,7 +31,7 @@ class Program
         {
             integerOne = 0;
         }
-        else 
+        else
         {
             integerOne = originalIntegerOne;
         }
