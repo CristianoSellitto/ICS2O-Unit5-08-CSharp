@@ -27,7 +27,8 @@ class Program
             Console.WriteLine("Error: This isn't an integer.");
             Environment.Exit(0);
         }
-        if (originalIntegerOne < 0) {
+        if (originalIntegerOne < 0)
+        {
             integerOne = 0;
         }
         else 
@@ -52,7 +53,7 @@ class Program
         }
         else
         {
-          answer = "undefined";
+            answer = "undefined";
         }
         Console.WriteLine("The result of " + originalIntegerOne + " ÷ " + integerTwo + " is " + answer);
         Console.WriteLine("\nFinished.");
