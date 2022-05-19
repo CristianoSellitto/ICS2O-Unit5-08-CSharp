@@ -45,11 +45,11 @@ class Program
         }
         else if (integerOne != 0 && integerTwo < 0)
         {
-            for (count = 0; integerOne >= integerTwo; count++)
+            for (count = 0; integerOne >= -integerTwo; count++)
             {
-                integerOne = integerOne + integerTwo;
+                integerOne = integerOne - -integerTwo;
             }
-            answer = Convert.ToString(-count) + "r" + Convert.ToString(integerOne);
+            answer = Convert.ToString(-count) + "r" + Convert.ToString(-integerOne);
         }
         else
         {
